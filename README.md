@@ -1,6 +1,10 @@
 # VIT Student Accommodation
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
+[![GitHub Forks](https://img.shields.io/github/forks/AtharvaKulkarniIT/VIT_Student_Accomodation-in-c.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/AtharvaKulkarniIT/VIT_Student_Accomodation-in-c/fork)
+[![GitHub Issues](https://img.shields.io/github/issues/AtharvaKulkarniIT/VIT_Student_Accomodation-in-c.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/AtharvaKulkarniIT/VIT_Student_Accomodation-in-c/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
 
-This program is designed to manage the accommodation of students at VIT . It allows you to input student details, search for specific students, display records, calculate NCGPA (Normalized Cumulative Grade Point Average), and perform room allotment during the counseling process.The code uses arrays, structures,merge sort and linked lists to manage student records and hash tables (arrays of pointers to `struct hash`) to organize students by branch and slot for efficient data storage and retrieval.
+This program is designed to manage the accommodation of students at VIT . It allows you to input student details, search for specific students, display records, calculate NCGPA (Normalized Cumulative Grade Point Average), and perform room allotment during the counseling process.The code uses arrays, structures, file handling , merge sort and linked lists to manage student records and hash tables (arrays of pointers to `struct hash`) to organize students by branch and slot for efficient data storage and retrieval.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -24,14 +28,19 @@ The program uses a hash-based data structure to store and manage student records
 ## Usage
 
 1. Clone the repository:
-   
-   git clone https://github.com/your-username/VIT-Student-Accommodation.git
+   ```
+   git clone https://github.com/AtharvaKulkarniIT/VIT-Student-Accommodation-in-c.git
+   ```
+   ```
+
    cd VIT-Student-Accommodation
    ```
 
-2. Compile and run the program:
-   
+3. Compile and run the program:
+ ```  
    gcc -o main main.c
+```
+```
    ./main
    ```
 
@@ -44,6 +53,3 @@ Contributions to this project are welcome. If you want to contribute, please ope
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-You can create a new GitHub repository, give it the name "VIT-Student-Accommodation," and then upload the code and README.md to the repository.
